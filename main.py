@@ -47,7 +47,7 @@ PROFILE_IDS = [p.strip() for p in os.getenv("PROFILE", "").split(",") if p.strip
 FOLDER_URLS = [
     "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/controld/apple-private-relay-allow-folder.json",
     "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/controld/badware-hoster-folder.json",
-    "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/controld/native-tracker-amazon-folder.json"
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/controld/native-tracker-amazon-folder.json",
     "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/controld/native-tracker-apple-folder.json",
     "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/controld/native-tracker-huawei-folder.json",
     "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/controld/native-tracker-lgwebos-folder.json",
