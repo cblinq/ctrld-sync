@@ -45,23 +45,23 @@ PROFILE_IDS = [p.strip() for p in os.getenv("PROFILE", "").split(",") if p.strip
 
 # URLs of the JSON block-lists we want to import
 FOLDER_URLS = [
-    "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/controld/apple-private-relay-allow-folder.json",
-    "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/controld/badware-hoster-folder.json",
-    "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/controld/native-tracker-amazon-folder.json"
-    "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/controld/native-tracker-apple-folder.json",
-    "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/controld/native-tracker-huawei-folder.json",
-    "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/controld/native-tracker-lgwebos-folder.json",
-    "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/controld/native-tracker-microsoft-folder.json",
-    "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/controld/native-tracker-oppo-realme-folder.json",
-    "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/controld/native-tracker-roku-folder.json",
-    "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/controld/native-tracker-samsung-folder.json",
-    "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/controld/native-tracker-tiktok-aggressive-folder.json",
-    "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/controld/native-tracker-vivo-folder.json",
-    "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/controld/native-tracker-xiaomi-folder.json",
-    "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/controld/spam-idns-folder.json",
-    "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/controld/spam-tlds-allow-folder.json",
-    "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/controld/spam-tlds-folder.json",
-    "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/controld/ultimate-known_issues-allow-folder.json"
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/controld/apple-private-relay-allow-folder.json",
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/controld/badware-hoster-folder.json",
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/controld/native-tracker-amazon-folder.json"
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/controld/native-tracker-apple-folder.json",
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/controld/native-tracker-huawei-folder.json",
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/controld/native-tracker-lgwebos-folder.json",
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/controld/native-tracker-microsoft-folder.json",
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/controld/native-tracker-oppo-realme-folder.json",
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/controld/native-tracker-roku-folder.json",
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/controld/native-tracker-samsung-folder.json",
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/controld/native-tracker-tiktok-aggressive-folder.json",
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/controld/native-tracker-vivo-folder.json",
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/controld/native-tracker-xiaomi-folder.json",
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/controld/spam-idns-folder.json",
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/controld/spam-tlds-allow-folder.json",
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/controld/spam-tlds-folder.json",
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/controld/ultimate-known_issues-allow-folder.json"
 ]
 
 BATCH_SIZE = 500
